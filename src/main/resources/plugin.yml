@@ -1,0 +1,12 @@
+name: RowdyAirdrops
+version: '${project.version}'
+main: main.RowdyAirdrops
+api-version: 1.19
+commands:
+  airdrop:
+    description: Airdrop?
+    subcommands:
+      create:
+        description: Добавить новый аиродроп
+      reload:
+        description: Перезагрузить конфиги плагина
